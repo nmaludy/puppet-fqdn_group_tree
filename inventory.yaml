@@ -1,0 +1,9 @@
+groups:
+  - name: org
+    groups:
+      - _plugin: fqdn_group_tree
+        targets:
+          - V1-W1-X1-Y1-Z1.org.tld
+          - V1-W1-X1-Y1-Z2.org.tld
+          - V2-W1-X1-Y1-Z1.org.tld
+          - V2-W1-X1-Y1-Z2.org.tld
