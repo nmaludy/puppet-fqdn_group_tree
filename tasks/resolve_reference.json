@@ -1,0 +1,11 @@
+{
+  "description": "Splits list of targets in format V-W-X-Y-Z.org.tld into a group tree",
+  "input_method": "stdin",
+  "parameters": {
+    "targets": {
+      "type": "Array[Variant[String, Hash]]",
+      "description": "List of targets"
+    }
+  },
+  "files": ["ruby_task_helper/files/task_helper.rb"]
+}
